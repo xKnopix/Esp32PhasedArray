@@ -2,7 +2,7 @@ const double CyclesPerMicroSek = F_CPU/1000000;
 
 const int samples = 44;
 const double resolution = 8.1818181818181818; //Deg (360/44)
-const unsigned long freq = 10000;//Hz
+const unsigned long freq = 40000;//Hz
 const double Tsek = 0.0000249; //sek 1/freq
 const double TuSek = Tsek*1000*1000;
 const double TperSampleMicro = TuSek/samples; //us
